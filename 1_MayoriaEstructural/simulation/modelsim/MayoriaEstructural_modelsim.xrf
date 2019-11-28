@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/israe/Documents/Maestria/Sistemas Digitales/1_MayoriaEstructural/MayoriaEstructural.tdf
+source_file = 1, C:/Users/israe/Documents/Maestria/Sistemas Digitales/1_MayoriaEstructural/Waveform.vwf
+source_file = 1, C:/Users/israe/Documents/Maestria/Sistemas Digitales/1_MayoriaEstructural/db/MayoriaEstructural.cbx.xml
+design_name = hard_block
+design_name = MayoriaEstructural
+instance = comp, \C~output\, C~output, MayoriaEstructural, 1
+instance = comp, \N~input\, N~input, MayoriaEstructural, 1
+instance = comp, \J~input\, J~input, MayoriaEstructural, 1
+instance = comp, \B~input\, B~input, MayoriaEstructural, 1
+instance = comp, \C~0\, C~0, MayoriaEstructural, 1

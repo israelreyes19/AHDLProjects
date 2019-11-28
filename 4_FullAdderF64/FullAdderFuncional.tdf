@@ -1,0 +1,7 @@
+SUBDESIGN FullAdderFuncional (
+	A[63..0], B[63..0]:INPUT;
+	S[63..0]:OUTPUT;
+	)
+BEGIN 
+	S[] = A[] + B[];
+END;

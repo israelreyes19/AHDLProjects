@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/israe/Documents/Maestria/Sistemas Digitales/3_FullAdderEstructural/simulation/qsim
+vFullAdderEstructural
+Z1 !s110 1574913930
+!i10b 1
+!s100 NL=;bKma2YiQ3NjK5@>2^2
+Id2>hNk>ZUnG]Kd=09WkgX1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1574913929
+Z4 8FullAdderEstructural.vo
+Z5 FFullAdderEstructural.vo
+L0 31
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1574913930.000000
+Z8 !s107 FullAdderEstructural.vo|
+Z9 !s90 -work|work|FullAdderEstructural.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@full@adder@estructural
+vFullAdderEstructural_vlg_vec_tst
+R1
+!i10b 1
+!s100 bS=bgP1BbhgDgSnj0>5J>2
+IMLC[HMc7<Wa3WliOkj>@B2
+R2
+R0
+w1574913927
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+n@full@adder@estructural_vlg_vec_tst
+vhard_block
+R1
+!i10b 1
+!s100 WhXL`_[F1V8mkd5@G_?Fh1
+IEjR4O9GK0<`z?_DYScc:20
+R2
+R0
+R3
+R4
+R5
+L0 172
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11

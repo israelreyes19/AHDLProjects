@@ -1,0 +1,7 @@
+SUBDESIGN MayoriaEstructural(
+	J,B,N:INPUT;
+	C:OUTPUT;
+)
+BEGIN 
+C=!J&B&N # J&!B&N # J&B&!N # J&B&N;
+END;

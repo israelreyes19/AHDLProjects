@@ -1,0 +1,8 @@
+SUBDESIGN FullAdderCarry (
+	C,A[31..0],B[31..0]:INPUT;
+	S[32..0]:OUTPUT;
+	)
+	
+BEGIN 
+	S[] = (GND,A[]) +(GND,B[]) + (GND, C);
+END;

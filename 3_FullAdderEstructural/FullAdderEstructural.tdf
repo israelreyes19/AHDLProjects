@@ -1,0 +1,8 @@
+SUBDESIGN FullAdderEstructural (
+	Ci,A,B:INPUT;
+	Co,S:OUTPUT;)
+
+BEGIN
+	Co = A&B # Ci&A # Ci&B;
+	S = !Ci&!B&A # !Ci&B&!A # Ci&!B&!A # Ci&B&A;
+END;
