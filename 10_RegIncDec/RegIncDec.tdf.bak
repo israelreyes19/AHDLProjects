@@ -1,0 +1,14 @@
+SUBDESIGN RegIncDec (
+	dato[7..0], reloj, reset, cmd[1..0]:INPUT;
+	salida[7..0]:OUTPUT;)
+VARIABLE
+	R[].(clk, clrn) = (reloj, !reset);
+BEGIN	
+	CASE cmd[] is 
+		WHEN 0=>R[]=R[];
+		WHEN 1=>R[]=dato;
+		WHEN 2=>R[] +1;
+		WHEN 3=>R[] -1;
+	END CASE;
+	salida[]=R[];
+END;

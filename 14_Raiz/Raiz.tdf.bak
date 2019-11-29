@@ -1,0 +1,12 @@
+FUNCTION RegUniversal(reset, reloj, dato[7..0], cmd[2..0])
+	RETURNS(s[7..0])
+	
+SUBDESIGN Raiz (
+	dato[7..0]:INPUT;
+	salida[7..0]:OUTPUT;)
+	
+VARIABLE 
+	R1 : RegUniversal;
+BEGIN 
+	salida[]=dato[];
+END;

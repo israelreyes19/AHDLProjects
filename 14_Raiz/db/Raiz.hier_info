@@ -1,0 +1,22 @@
+|Raiz
+fin => ~NO_FANOUT~
+reset => ~NO_FANOUT~
+clk => ~NO_FANOUT~
+dato[0] => salida[0].DATAIN
+dato[1] => salida[1].DATAIN
+dato[2] => salida[2].DATAIN
+dato[3] => salida[3].DATAIN
+dato[4] => salida[4].DATAIN
+dato[5] => salida[5].DATAIN
+dato[6] => salida[6].DATAIN
+dato[7] => salida[7].DATAIN
+salida[0] <= dato[0].DB_MAX_OUTPUT_PORT_TYPE
+salida[1] <= dato[1].DB_MAX_OUTPUT_PORT_TYPE
+salida[2] <= dato[2].DB_MAX_OUTPUT_PORT_TYPE
+salida[3] <= dato[3].DB_MAX_OUTPUT_PORT_TYPE
+salida[4] <= dato[4].DB_MAX_OUTPUT_PORT_TYPE
+salida[5] <= dato[5].DB_MAX_OUTPUT_PORT_TYPE
+salida[6] <= dato[6].DB_MAX_OUTPUT_PORT_TYPE
+salida[7] <= dato[7].DB_MAX_OUTPUT_PORT_TYPE
+
+

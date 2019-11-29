@@ -1,0 +1,20 @@
+|RegCarga
+load => _.IN0
+load => _.IN0
+load => _.IN0
+load => _.IN0
+load => _.IN0
+clk => R[3].CLK
+clk => R[2].CLK
+clk => R[1].CLK
+clk => R[0].CLK
+dato[0] => _.IN1
+dato[1] => _.IN1
+dato[2] => _.IN1
+dato[3] => _.IN1
+salida[0] <= R[0].DB_MAX_OUTPUT_PORT_TYPE
+salida[1] <= R[1].DB_MAX_OUTPUT_PORT_TYPE
+salida[2] <= R[2].DB_MAX_OUTPUT_PORT_TYPE
+salida[3] <= R[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,18 @@
+SUBDESIGN Control (
+	fin, reset, clk:INPUT;
+	salida[2..0]:OUTPUT;)
+VARIABLE
+	R[2..0]:DFF;
+BEGIN 
+	R[].(clk,clrn) = (clk,!reset);
+	salida[]=R[];
+	IF (R[]==4) THEN 
+		IF(fin==GND) THEN
+			R[] = 2;
+		ELSE
+			R[] = R[];
+		END IF;
+	ELSE 
+		R[] = R[] +1;
+	END IF;
+END;

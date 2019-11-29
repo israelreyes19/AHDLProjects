@@ -1,0 +1,15 @@
+SUBDESIGN RegCarga (
+	load, clk, dato[3..0]:INPUT;
+	salida[3..0]:OUTPUT;)
+
+VARIABLE
+	R[3..0]:DFF;
+BEGIN 
+	R[].clk = clk;
+	IF (load == VCC) THEN 
+		R[]=dato[];
+	ELSE
+		R[]=R[];
+	END IF;
+	salida[]=R[];
+END;

@@ -1,0 +1,6 @@
+|FlipFlop
+dato => R.DATAIN
+reloj => R.CLK
+salida <= R.DB_MAX_OUTPUT_PORT_TYPE
+
+

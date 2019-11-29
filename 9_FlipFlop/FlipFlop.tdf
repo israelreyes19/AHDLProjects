@@ -1,0 +1,10 @@
+SUBDESIGN FlipFlop (
+	dato, reloj:INPUT;
+	salida:OUTPUT;)
+VARIABLE
+	R:DFF;
+BEGIN 
+	R.d = dato;
+	R.clk = reloj;
+	salida = R.q;
+END;

@@ -1,0 +1,24 @@
+SUBDESIGN RegUniversal (
+	dato[7..0], reloj, reset, cmd[2..0]:INPUT;
+	salida[7..0]:OUTPUT;)
+VARIABLE
+	R[7..0]:DFF;
+	
+BEGIN	
+	R[].(clk, clrn) = (reloj, !reset);
+	CASE cmd[] is 
+		WHEN 0 => R[] = R[];
+		WHEN 1 => R[] = dato;
+		WHEN 2 => R[] = R[] + 1;
+		WHEN 3 => R[] = R[] - 1;
+		WHEN 4 => R[7] = GND;
+						R[6..0] = R[7..1];
+		WHEN 5 => R[0] = GND;
+						R[7..1] = R[6..0];
+		WHEN 6 => R[7] = R[0];
+						R[6..0] = R[7..1];
+		WHEN 7 => R[0] = R[7];
+						R[7..1] = R[6..0];
+	END CASE;
+	salida[]=R[];
+END;

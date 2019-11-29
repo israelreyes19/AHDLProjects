@@ -1,0 +1,11 @@
+|Control
+fin => _.IN0
+reset => R[2].IN0
+clk => R[2].CLK
+clk => R[1].CLK
+clk => R[0].CLK
+salida[0] <= R[0].DB_MAX_OUTPUT_PORT_TYPE
+salida[1] <= R[1].DB_MAX_OUTPUT_PORT_TYPE
+salida[2] <= R[2].DB_MAX_OUTPUT_PORT_TYPE
+
+

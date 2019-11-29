@@ -1,0 +1,7 @@
+SUBDESIGN MuxEstructural (
+	S,A,B:INPUT;
+	F:OUTPUT;)
+	
+BEGIN
+	F = !S&A&!B # !S&A&B # S&A!&B # S&A&B;
+END;
